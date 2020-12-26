@@ -9,7 +9,6 @@ class Player {
   speed = 2
   radius = 20
   angle = - Math.PI / 2
-  bullets = []
 
   rotate({ x, y }) {
     let dy = y - this.vector.y
