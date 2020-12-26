@@ -16,7 +16,7 @@ class Player {
     this.angle = Math.atan2(dy, dx)
   }
   
-  move(e) {
+  move() {
     if(key("w") && this.vector.y - this.speed - this.radius > 0) {
       this.vector.y -= this.speed
     }
