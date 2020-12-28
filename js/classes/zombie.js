@@ -5,7 +5,7 @@ class Zombie {
   speed = 1.1
   radius = 20
   health = 5
-  costume = "closed"
+  // costume = "closed"
 
   constructor(player) {
     this.vector = {

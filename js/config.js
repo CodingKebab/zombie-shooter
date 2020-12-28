@@ -1,7 +1,14 @@
-const width = window.innerWidth
-const height = window.innerHeight
+let width, height
+
+const resizeConfig = () => {
+  width = window.innerWidth
+  height = window.innerHeight
+}
+
+resizeConfig()
 
 export {
   width,
-  height
+  height,
+  resizeConfig
 }
