@@ -1,2 +1,5 @@
 # Zombie Shooter
-p5.js is often used to simplify the HTML5 canvas. While p5 is powerful, it's just another bloated dependency. You could easily perform the same tasks with vanilla JS without much effort. This zombie shooter game showcases the simplicity of canvas and JS.
+This is a simple zombie shooting game made with JS and the HTML5 canvas! Read on how to make something similar on [dev.to](https://dev.to/phamn23/simple-zombie-shooter-49d).
+
+## Canvas
+New javascript programmers often abstract the native HTML5 canvas with p5.js. However, p5 is just a bloated dependency that simplifies what is already simple. This project showcases vanilla JavaScript, simple animation techniques, and keyboard input to create a cool game. 
